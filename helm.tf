@@ -30,7 +30,7 @@ resource "helm_release" "invalid_1" {
 resource "helm_release" "invalid_2" {
   repository = "https://charts.helm.sh/stable"
   chart      = "redis"
-  version    = "5.0.1"
+  version    = "5.5.0"
 }
 
 resource "helm_release" "invalid_3" {
