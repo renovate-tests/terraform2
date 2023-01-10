@@ -4,7 +4,7 @@ resource "helm_release" "redis" {
   name       = "my-redis-release"
   repository = "https://charts.helm.sh/stable"
   chart      = "redis"
-  version    = "1.0.1"
+  version    = "1.2.2"
 }
 
 ## example without version, this will default to latest in Terraform
